@@ -22,13 +22,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Acceptance Criteria
 
-- Create API endpoint/server action to convert images to LaTeX using DeepSeek API
-- Display LaTeX output in the code editor panel
-- Organize code into reusable components and utilities
+- Create API endpoint/server action to convert images to LaTeX using OpenAI API
+- Add loading/processing states when the code is being generated
+- Display the generated LaTeX code in a editor on the right panel
+- Organize code into reusable components and utilities wherever possible
 
 ## Additional Info
 
-Feel free to use AI tools to complete the task!
+- You can check out: https://tools.useoctree.com/tools/math-to-latex to see a live example for inspiration.
+- Feel free to use AI tools to complete the task.
 
 ## Tech Stack
 

@@ -24,6 +24,7 @@ export function CodeOutput() {
             &lt;/&gt; Code
           </button>
         </div>
+        {/* Display the generated LaTeX code in a editor here */}
         <div className="flex-1 bg-gray-50 rounded-lg p-6 font-mono text-sm min-h-[300px]">
           <span className="text-gray-400">Output will appear here...</span>
         </div>
