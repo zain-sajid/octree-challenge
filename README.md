@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Image to LaTeX Converter - Octree Challenge
+
+This is a challenge project for Octree: an Image to LaTeX Converter built with [Next.js](https://nextjs.org). The application allows users to upload images of handwritten mathematical expressions and convert them to clean LaTeX code.
 
 ## Getting Started
 
@@ -18,19 +20,20 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Acceptance Criteria
 
-## Learn More
+- Create API endpoint/server action to convert images to LaTeX using DeepSeek API
+- Display LaTeX output in the code editor panel
+- Organize code into reusable components and utilities
 
-To learn more about Next.js, take a look at the following resources:
+## Additional Info
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to use AI tools to complete the task!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework**: Next.js 16
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS
+- **File Upload**: react-dropzone
+- **Icons**: lucide-react
