@@ -27,6 +27,11 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - Display the generated LaTeX code in a editor on the right panel
 - Organize code into reusable components and utilities wherever possible
 
+## Submission
+
+- Submit your solution by creating a new **private** repo and inviting: `zain-sajid` and `basilysf1709` as collaborators
+- Optional: Open a PR showing your changes in the new repo
+
 ## Additional Info
 
 - You can check out: https://tools.useoctree.com/tools/math-to-latex to see a live example for inspiration.
